@@ -30,6 +30,7 @@ xlabel('Timpul[s]');
 ylabel('s(t)-linie continua si sr(t)-linie punctata cu rosu');
 title('Suprapunerea semnalelor s(t) si sr(t)')
 hold off
+%prin hold on/off pot reprezenta mai multe grafice in acelasi sistem
 figure(2);
 hold on
 stem((-N:N)*w,2*abs(C));
